@@ -1,0 +1,89 @@
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# PyCharm/IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# VS Code files
+.vscode/
+*.code-workspace
+.history/
+
+# Project-specific directories
+data/
+results/
+fine_tuned_model/
+evaluation_results/
+real_world_results/
+real_world_data/test_images/
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.model
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Log files
+logs/
+*.log
+mlruns/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.mp4
+*.mov
+*.avi
+
+# Exclude specific directories that should be tracked
+# Comment out if you want to include these in your repo
+# !data/README.md
+# !fine_tuned_model/README.md
