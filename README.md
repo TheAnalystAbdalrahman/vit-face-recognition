@@ -52,6 +52,7 @@ cd vit-face-recognition
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
+
 Option A: Using venv (standard Python virtual environment)
 ```bash
 python -m venv venv
